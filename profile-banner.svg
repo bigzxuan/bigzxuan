@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="248" viewBox="0 0 960 248" role="img" aria-labelledby="title description">
+  <title id="title">bigzxuan</title>
+  <desc id="description">AI Agents · Cloudflare · Open Source</desc>
+  <style>
+    .background-start { stop-color: #f5f7ff; }
+    .background-end { stop-color: #eceaff; }
+    .border { stroke: #d6d8ef; }
+    .title { fill: #17163a; }
+    .subtitle { fill: #4d5276; }
+    .orbit { stroke: #8b83d0; }
+    .accent { stroke: #604bd2; }
+    .node { fill: #604bd2; }
+    @media (prefers-color-scheme: dark) {
+      .background-start { stop-color: #15182b; }
+      .background-end { stop-color: #251c43; }
+      .border { stroke: #393558; }
+      .title { fill: #f1efff; }
+      .subtitle { fill: #bdc2e0; }
+      .orbit { stroke: #aaa0ef; }
+      .accent { stroke: #c0afff; }
+      .node { fill: #c0afff; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop class="background-start" offset="0" />
+      <stop class="background-end" offset="1" />
+    </linearGradient>
+    <clipPath id="panel"><rect x="1" y="1" width="958" height="246" rx="24" /></clipPath>
+  </defs>
+  <rect x="1" y="1" width="958" height="246" rx="24" fill="url(#background)" class="border" stroke-width="2" />
+  <g clip-path="url(#panel)">
+    <g fill="none" class="orbit" stroke-width="1.3" opacity=".55" transform="translate(770 124)">
+      <circle r="49" /><circle r="83" /><circle r="118" /><circle r="153" />
+      <path d="M-187 0H187 M0-153V153 M-133 133L133-133 M-133-133L133 133" opacity=".48" />
+    </g>
+    <path class="accent" fill="none" stroke-width="2.5" stroke-linecap="round" d="M593 184l58-59h58l40-41h88l47-46" />
+    <g class="node">
+      <circle cx="651" cy="125" r="4" /><circle cx="709" cy="125" r="4" />
+      <circle cx="749" cy="84" r="5" /><circle cx="837" cy="84" r="4" />
+      <circle cx="884" cy="38" r="5" /><circle cx="770" cy="207" r="3" />
+    </g>
+  </g>
+  <rect class="node" x="60" y="56" width="44" height="4" rx="2" />
+  <text class="title" x="57" y="132" font-size="72" font-weight="700" letter-spacing="-3" font-family="Arial, Helvetica, sans-serif">bigzxuan</text>
+  <text class="subtitle" x="61" y="182" font-size="23" font-family="Consolas, Menlo, monospace">AI Agents · Cloudflare · Open Source</text>
+</svg>
